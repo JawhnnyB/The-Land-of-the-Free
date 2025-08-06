@@ -1,1 +1,19 @@
-<!-- Placeholder OpenMC materials.xml for CANDU -->
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="Natural UO2">
+    <density units="g/cm3" value="10.5" />
+    <nuclide ao="0.0072" name="U235" />
+    <nuclide ao="0.9928" name="U238" />
+    <element ao="2.0" name="O" />
+  </material>
+  <material id="2" name="Zircaloy">
+    <density units="g/cm3" value="6.5" />
+    <element ao="1.0" name="Zr" />
+  </material>
+  <material id="3" name="D2O">
+    <density units="g/cm3" value="1.1" />
+    <nuclide ao="2.0" name="H2" />
+    <element ao="1.0" name="O" />
+    <sab name="c_D_in_D2O" />
+  </material>
+</materials>

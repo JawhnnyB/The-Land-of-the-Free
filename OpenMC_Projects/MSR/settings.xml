@@ -1,1 +1,12 @@
-<!-- Placeholder OpenMC settings.xml for MSR -->
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <batches>250</batches>
+  <inactive>50</inactive>
+  <particles>5000</particles>
+  <source>
+    <space type="point">
+      <s>0 0 0</s>
+    </space>
+  </source>
+</settings>

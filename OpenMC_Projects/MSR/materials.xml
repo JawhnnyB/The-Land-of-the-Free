@@ -1,1 +1,17 @@
-<!-- Placeholder OpenMC materials.xml for MSR -->
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="FLiBe+U">
+    <density units="g/cm3" value="3.2" />
+    <nuclide ao="2.0" name="Li7" />
+    <element ao="1.0" name="Be" />
+    <element ao="4.0" name="F" />
+    <nuclide ao="0.0002" name="U235" />
+    <nuclide ao="0.0008" name="U238" />
+    <sab name="c_FLiBe" />
+  </material>
+  <material id="2" name="Graphite">
+    <density units="g/cm3" value="1.9" />
+    <element ao="1.0" name="C" />
+    <sab name="c_Graphite" />
+  </material>
+</materials>

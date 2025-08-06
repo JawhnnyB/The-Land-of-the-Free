@@ -1,1 +1,18 @@
-<!-- Placeholder OpenMC materials.xml for SFR -->
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="MOX">
+    <density units="g/cm3" value="10.5" />
+    <nuclide ao="0.01" name="U235" />
+    <nuclide ao="0.79" name="U238" />
+    <nuclide ao="0.2" name="Pu239" />
+    <element ao="2.0" name="O" />
+  </material>
+  <material id="2" name="Steel">
+    <density units="g/cm3" value="7.8" />
+    <element ao="1.0" name="Fe" />
+  </material>
+  <material id="3" name="Sodium">
+    <density units="g/cm3" value="0.97" />
+    <element ao="1.0" name="Na" />
+  </material>
+</materials>
